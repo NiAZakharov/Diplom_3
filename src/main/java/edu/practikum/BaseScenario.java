@@ -85,15 +85,6 @@ public class BaseScenario {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         Selenide.open(URL);
 
-//        requestSpecification = RestAssured
-//                .given()
-//                .baseUri(config.baseUrl())
-//                .basePath(config.baseApiPath())
-//                .contentType(ContentType.JSON).accept(ContentType.JSON)
-//                .filter(new AllureRestAssuredFilter())
-//                .log().all();
-//
-//        RestAssured.requestSpecification = requestSpecification;
     }
 
     @AfterEach
