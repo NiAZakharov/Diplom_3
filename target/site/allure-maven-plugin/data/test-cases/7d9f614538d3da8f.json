@@ -1,0 +1,357 @@
+{
+  "uid" : "7d9f614538d3da8f",
+  "name" : "Проверка валидации на длину пароля при регистрации",
+  "fullName" : "RegistrationTest.registerWithShortPasswordTest",
+  "historyId" : "ce1a35e2c60e87da66119861579c0ce",
+  "time" : {
+    "start" : 1723439336047,
+    "stop" : 1723439340449,
+    "duration" : 4402
+  },
+  "description" : "Проверка валидации на длину пароля при регистрации",
+  "descriptionHtml" : "<p>Проверка валидации на длину пароля при регистрации</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initSpecification",
+    "time" : {
+      "start" : 1723439330488,
+      "stop" : 1723439330491,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "initialize",
+    "time" : {
+      "start" : 1723439336047,
+      "stop" : 1723439339523,
+      "duration" : 3476
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://stellarburgers.nomoreparties.site",
+      "time" : {
+        "start" : 1723439336068,
+        "stop" : 1723439339523,
+        "duration" : 3455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "generateNewUserData",
+    "time" : {
+      "start" : 1723439339524,
+      "stop" : 1723439339524,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка валидации на длину пароля при регистрации",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1723439339526,
+        "stop" : 1723439339753,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//p[text() = 'Личный Кабинет']\") click()",
+        "time" : {
+          "start" : 1723439339526,
+          "stop" : 1723439339753,
+          "duration" : 227
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Перейти на страницу регистрации",
+      "time" : {
+        "start" : 1723439339753,
+        "stop" : 1723439339843,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.linkText: Зарегистрироваться\") click()",
+        "time" : {
+          "start" : 1723439339754,
+          "stop" : 1723439339843,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Зарегистрировать нового пользователя",
+      "time" : {
+        "start" : 1723439339844,
+        "stop" : 1723439340297,
+        "duration" : 453
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//h2[text() = 'Регистрация']\") should be(visible)",
+        "time" : {
+          "start" : 1723439339844,
+          "stop" : 1723439339886,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[@class='text input__textfield text_type_main-default'][0]\") set value(вячеслав.селезнев)",
+        "time" : {
+          "start" : 1723439339887,
+          "stop" : 1723439340017,
+          "duration" : 130
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[@class='text input__textfield text_type_main-default'][1]\") set value(вячеслав.денисов@hotmail.com)",
+        "time" : {
+          "start" : 1723439340018,
+          "stop" : 1723439340155,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[@class='text input__textfield text_type_main-default'][2]\") set value(Qvq5x)",
+        "time" : {
+          "start" : 1723439340155,
+          "stop" : 1723439340237,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//button[text() = 'Зарегистрироваться']\") click()",
+        "time" : {
+          "start" : 1723439340237,
+          "stop" : 1723439340297,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=вячеслав.денисов@hotmail.com, password=Qvq5x, name=вячеслав.селезнев)"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка отображения главной страницы",
+      "time" : {
+        "start" : 1723439340297,
+        "stop" : 1723439340357,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//*[@class='input__error text_type_main-default' and text()='Некорректный пароль']\") should be(visible)",
+        "time" : {
+          "start" : 1723439340298,
+          "stop" : 1723439340326,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//h2[text() = 'Регистрация']\") should be(visible)",
+        "time" : {
+          "start" : 1723439340327,
+          "stop" : 1723439340357,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1723439340358,
+      "stop" : 1723439340449,
+      "duration" : 91
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"current window\") close()",
+      "time" : {
+        "start" : 1723439340358,
+        "stop" : 1723439340449,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0SPD60R3"
+  }, {
+    "name" : "thread",
+    "value" : "22108@LAPTOP-0SPD60R3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registerWithShortPasswordTest"
+  }, {
+    "name" : "suite",
+    "value" : "Регистрация нового пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d9f614538d3da8f.json",
+  "parameterValues" : [ ]
+}

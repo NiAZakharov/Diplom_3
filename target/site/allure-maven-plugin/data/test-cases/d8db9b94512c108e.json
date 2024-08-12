@@ -1,0 +1,579 @@
+{
+  "uid" : "d8db9b94512c108e",
+  "name" : "Переключение по вкладкам в конструкторе",
+  "fullName" : "TransitionPageTest.switchConstructTabsTest",
+  "historyId" : "2ac4ad67e63819183a84a8fecebd7bea",
+  "time" : {
+    "start" : 1723439364372,
+    "stop" : 1723439369201,
+    "duration" : 4829
+  },
+  "description" : "Переключение по вкладкам в конструкторе",
+  "descriptionHtml" : "<p>Переключение по вкладкам в конструкторе</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initSpecification",
+    "time" : {
+      "start" : 1723439340455,
+      "stop" : 1723439340457,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "initialize",
+    "time" : {
+      "start" : 1723439364373,
+      "stop" : 1723439367849,
+      "duration" : 3476
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://stellarburgers.nomoreparties.site",
+      "time" : {
+        "start" : 1723439364413,
+        "stop" : 1723439367849,
+        "duration" : 3436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "getExistUser",
+    "time" : {
+      "start" : 1723439367850,
+      "stop" : 1723439368196,
+      "duration" : 346
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание нового уникального пользователя",
+      "time" : {
+        "start" : 1723439367850,
+        "stop" : 1723439368196,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa30f66b5c4cf727",
+        "name" : "Request Method",
+        "source" : "fa30f66b5c4cf727.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "f31843c927ed7d7a",
+        "name" : "Request URI",
+        "source" : "f31843c927ed7d7a.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "170476a4a28b8d78",
+        "name" : "Request Headers",
+        "source" : "170476a4a28b8d78.txt",
+        "type" : "text/plain",
+        "size" : 105
+      }, {
+        "uid" : "6647da7f2fd88d2a",
+        "name" : "Request Body",
+        "source" : "6647da7f2fd88d2a.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "fd62ec527c1854d2",
+        "name" : "Response Status Code",
+        "source" : "fd62ec527c1854d2.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "46749eaec880e765",
+        "name" : "Response Headers",
+        "source" : "46749eaec880e765.txt",
+        "type" : "text/plain",
+        "size" : 871
+      }, {
+        "uid" : "c83a7c5ce9320ba0",
+        "name" : "Response Body",
+        "source" : "c83a7c5ce9320ba0.txt",
+        "type" : "text/plain",
+        "size" : 397
+      }, {
+        "uid" : "75fcab5e24adb3af",
+        "name" : "Request Method",
+        "source" : "75fcab5e24adb3af.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "2a435fd950b34302",
+        "name" : "Request URI",
+        "source" : "2a435fd950b34302.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "414819a49c1ddc98",
+        "name" : "Request Headers",
+        "source" : "414819a49c1ddc98.txt",
+        "type" : "text/plain",
+        "size" : 105
+      }, {
+        "uid" : "378c5e22af0f29e2",
+        "name" : "Request Body",
+        "source" : "378c5e22af0f29e2.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "94e44de1c5e24be5",
+        "name" : "Response Status Code",
+        "source" : "94e44de1c5e24be5.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "bded90216140a13b",
+        "name" : "Response Headers",
+        "source" : "bded90216140a13b.txt",
+        "type" : "text/plain",
+        "size" : 871
+      }, {
+        "uid" : "309607d26481ec66",
+        "name" : "Response Body",
+        "source" : "309607d26481ec66.txt",
+        "type" : "text/plain",
+        "size" : 397
+      }, {
+        "uid" : "9d1622cc32b39050",
+        "name" : "Request Method",
+        "source" : "9d1622cc32b39050.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "56910bab94bc01ae",
+        "name" : "Request URI",
+        "source" : "56910bab94bc01ae.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "7ecf9cd0ee8c6011",
+        "name" : "Request Headers",
+        "source" : "7ecf9cd0ee8c6011.txt",
+        "type" : "text/plain",
+        "size" : 105
+      }, {
+        "uid" : "e570f0e55615f577",
+        "name" : "Request Body",
+        "source" : "e570f0e55615f577.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "67f4a7424f7a96bc",
+        "name" : "Response Status Code",
+        "source" : "67f4a7424f7a96bc.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "46000b2afc0f6fe",
+        "name" : "Response Headers",
+        "source" : "46000b2afc0f6fe.txt",
+        "type" : "text/plain",
+        "size" : 871
+      }, {
+        "uid" : "4dfd54bdda442cd9",
+        "name" : "Response Body",
+        "source" : "4dfd54bdda442cd9.txt",
+        "type" : "text/plain",
+        "size" : 397
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 21,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Переключение по вкладкам в конструкторе",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на вкладку Соусы и проверка активности вкладки",
+      "time" : {
+        "start" : 1723439368196,
+        "stop" : 1723439368295,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//*[text()='Соусы']//parent::div\") click()",
+        "time" : {
+          "start" : 1723439368196,
+          "stop" : 1723439368272,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[text()='Соусы']//parent::div\") should have(match attribute class=\".*tab_tab_type_current__2BEPc.*\")",
+        "time" : {
+          "start" : 1723439368273,
+          "stop" : 1723439368295,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Переход на вкладку Начинки и проверка активности вкладки",
+      "time" : {
+        "start" : 1723439368295,
+        "stop" : 1723439368389,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//*[text()='Начинки']//parent::div\") click()",
+        "time" : {
+          "start" : 1723439368296,
+          "stop" : 1723439368361,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[text()='Начинки']//parent::div\") should have(match attribute class=\".*tab_tab_type_current__2BEPc.*\")",
+        "time" : {
+          "start" : 1723439368362,
+          "stop" : 1723439368389,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Переход на вкладку Булки и проверка активности вкладки",
+      "time" : {
+        "start" : 1723439368389,
+        "stop" : 1723439368480,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//*[text()='Булки']//parent::div\") click()",
+        "time" : {
+          "start" : 1723439368390,
+          "stop" : 1723439368451,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[text()='Булки']//parent::div\") should have(match attribute class=\".*tab_tab_type_current__2BEPc.*\")",
+        "time" : {
+          "start" : 1723439368452,
+          "stop" : 1723439368480,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1723439368480,
+      "stop" : 1723439369201,
+      "duration" : 721
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"current window\") close()",
+      "time" : {
+        "start" : 1723439368480,
+        "stop" : 1723439368573,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление пользователя/Очистка данных",
+      "time" : {
+        "start" : 1723439368573,
+        "stop" : 1723439369201,
+        "duration" : 628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68eeddf235623d79",
+        "name" : "Request Method",
+        "source" : "68eeddf235623d79.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "130f000100b31f7f",
+        "name" : "Request URI",
+        "source" : "130f000100b31f7f.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "3a055f11d9bc4a3b",
+        "name" : "Request Headers",
+        "source" : "3a055f11d9bc4a3b.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "f4ac87f69a43a28b",
+        "name" : "Request Body",
+        "source" : "f4ac87f69a43a28b.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "d89bbf8c9dc89cef",
+        "name" : "Response Status Code",
+        "source" : "d89bbf8c9dc89cef.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "8f6bed1ba136b133",
+        "name" : "Response Headers",
+        "source" : "8f6bed1ba136b133.txt",
+        "type" : "text/plain",
+        "size" : 657
+      }, {
+        "uid" : "479431eb489f101",
+        "name" : "Response Body",
+        "source" : "479431eb489f101.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "3bfc4be252bb6358",
+        "name" : "Request Method",
+        "source" : "3bfc4be252bb6358.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "f0ae84ea0abf3503",
+        "name" : "Request URI",
+        "source" : "f0ae84ea0abf3503.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "2566b694cc6543fc",
+        "name" : "Request Headers",
+        "source" : "2566b694cc6543fc.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "1409b4d062c3c2c8",
+        "name" : "Request Body",
+        "source" : "1409b4d062c3c2c8.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "d644e6958dd689ef",
+        "name" : "Response Status Code",
+        "source" : "d644e6958dd689ef.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "ccb42829fb9595e6",
+        "name" : "Response Headers",
+        "source" : "ccb42829fb9595e6.txt",
+        "type" : "text/plain",
+        "size" : 657
+      }, {
+        "uid" : "14362124bf4476d7",
+        "name" : "Response Body",
+        "source" : "14362124bf4476d7.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "59c4d1c2651d9f8c",
+        "name" : "Request Method",
+        "source" : "59c4d1c2651d9f8c.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "6ac31c4ff4297bcc",
+        "name" : "Request URI",
+        "source" : "6ac31c4ff4297bcc.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "e5db5d765965d9fa",
+        "name" : "Request Headers",
+        "source" : "e5db5d765965d9fa.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "c1e145e043aae5c2",
+        "name" : "Request Body",
+        "source" : "c1e145e043aae5c2.txt",
+        "type" : "text/plain",
+        "size" : 109
+      }, {
+        "uid" : "24f2ac0672748ac",
+        "name" : "Response Status Code",
+        "source" : "24f2ac0672748ac.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "c5158dab8bcda0cb",
+        "name" : "Response Headers",
+        "source" : "c5158dab8bcda0cb.txt",
+        "type" : "text/plain",
+        "size" : 657
+      }, {
+        "uid" : "e68754f0d8786a06",
+        "name" : "Response Body",
+        "source" : "e68754f0d8786a06.txt",
+        "type" : "text/plain",
+        "size" : 54
+      } ],
+      "parameters" : [ {
+        "name" : "userResponse",
+        "value" : "User(email=лариса.корнилов@ya.ru, password=792vt2fmai903og, name=юлия.ермаков)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 21,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0SPD60R3"
+  }, {
+    "name" : "thread",
+    "value" : "22108@LAPTOP-0SPD60R3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TransitionPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "TransitionPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "switchConstructTabsTest"
+  }, {
+    "name" : "suite",
+    "value" : "Переходы по страницам"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8db9b94512c108e.json",
+  "parameterValues" : [ ]
+}

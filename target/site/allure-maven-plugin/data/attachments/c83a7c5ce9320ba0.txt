@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"лариса.корнилов@ya.ru","name":"юлия.ермаков"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2Yjk5OGY5OWVkMjgwMDAxYjQ4YzNiNCIsImlhdCI6MTcyMzQzOTM1MywiZXhwIjoxNzIzNDQwNTUzfQ.9tJT-Ig5yJ5GN3_l_jyFCwtWnaoAUCsG17qxpBwFFQw","refreshToken":"8a468c7f07ad5af89aba45a7b90b7962869e13f02011460b23921a40d2ffe4523e32a794c077cde7"}

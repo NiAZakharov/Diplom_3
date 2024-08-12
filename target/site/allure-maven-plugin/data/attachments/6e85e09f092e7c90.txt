@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"елизавета.козлов@hotmail.com","name":"галина.гаврилов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2Yjk5OGNjOWVkMjgwMDAxYjQ4YzM5ZiIsImlhdCI6MTcyMzQzOTMwOCwiZXhwIjoxNzIzNDQwNTA4fQ.DVPPlMVRuzwizfjrwiD4E9YYfy-rpr9YJkd5VfPj-yw","refreshToken":"67e6ea84ed8bc5157aac4dc3a1d9d74c9e4a4b0b312282831603b179409ad961f0cb78b6e100da6d"}

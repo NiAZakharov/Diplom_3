@@ -1,0 +1,642 @@
+{
+  "uid" : "45e86cfb0414dd5b",
+  "name" : "Выход из личного кабинета",
+  "fullName" : "TransitionPageTest.transitionExitPersonalPageTest",
+  "historyId" : "28b730278487688cb23bd988d93e9a3e",
+  "time" : {
+    "start" : 1723439357770,
+    "stop" : 1723439364364,
+    "duration" : 6594
+  },
+  "description" : "Выход из личного кабинета",
+  "descriptionHtml" : "<p>Выход из личного кабинета</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initSpecification",
+    "time" : {
+      "start" : 1723439340455,
+      "stop" : 1723439340457,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "initialize",
+    "time" : {
+      "start" : 1723439357771,
+      "stop" : 1723439361185,
+      "duration" : 3414
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://stellarburgers.nomoreparties.site",
+      "time" : {
+        "start" : 1723439357850,
+        "stop" : 1723439361185,
+        "duration" : 3335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "getExistUser",
+    "time" : {
+      "start" : 1723439361185,
+      "stop" : 1723439361593,
+      "duration" : 408
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание нового уникального пользователя",
+      "time" : {
+        "start" : 1723439361185,
+        "stop" : 1723439361593,
+        "duration" : 408
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88ddb75a41269f6e",
+        "name" : "Request Method",
+        "source" : "88ddb75a41269f6e.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "76392e45ca8157ad",
+        "name" : "Request URI",
+        "source" : "76392e45ca8157ad.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "e1bbf66d4f549477",
+        "name" : "Request Headers",
+        "source" : "e1bbf66d4f549477.txt",
+        "type" : "text/plain",
+        "size" : 105
+      }, {
+        "uid" : "b2cc1b5ca06bcdb0",
+        "name" : "Request Body",
+        "source" : "b2cc1b5ca06bcdb0.txt",
+        "type" : "text/plain",
+        "size" : 110
+      }, {
+        "uid" : "6fd8e44fd3f50675",
+        "name" : "Response Status Code",
+        "source" : "6fd8e44fd3f50675.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "f69a4ce3328a9977",
+        "name" : "Response Headers",
+        "source" : "f69a4ce3328a9977.txt",
+        "type" : "text/plain",
+        "size" : 879
+      }, {
+        "uid" : "9d534af3b1526b1b",
+        "name" : "Response Body",
+        "source" : "9d534af3b1526b1b.txt",
+        "type" : "text/plain",
+        "size" : 401
+      }, {
+        "uid" : "38b1c0354b161c9c",
+        "name" : "Request Method",
+        "source" : "38b1c0354b161c9c.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "75b640cc8bd6642",
+        "name" : "Request URI",
+        "source" : "75b640cc8bd6642.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "2246359132fd2503",
+        "name" : "Request Headers",
+        "source" : "2246359132fd2503.txt",
+        "type" : "text/plain",
+        "size" : 105
+      }, {
+        "uid" : "ac9632b6c9460e5f",
+        "name" : "Request Body",
+        "source" : "ac9632b6c9460e5f.txt",
+        "type" : "text/plain",
+        "size" : 110
+      }, {
+        "uid" : "264bac4796243746",
+        "name" : "Response Status Code",
+        "source" : "264bac4796243746.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "f2d3e75051225c97",
+        "name" : "Response Headers",
+        "source" : "f2d3e75051225c97.txt",
+        "type" : "text/plain",
+        "size" : 879
+      }, {
+        "uid" : "b190a1a999dda76d",
+        "name" : "Response Body",
+        "source" : "b190a1a999dda76d.txt",
+        "type" : "text/plain",
+        "size" : 401
+      }, {
+        "uid" : "ee0b1f14a4674244",
+        "name" : "Request Method",
+        "source" : "ee0b1f14a4674244.txt",
+        "type" : "text/plain",
+        "size" : 4
+      }, {
+        "uid" : "bc23a2c0db395d6a",
+        "name" : "Request URI",
+        "source" : "bc23a2c0db395d6a.txt",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "14c5ca8f990268e4",
+        "name" : "Request Headers",
+        "source" : "14c5ca8f990268e4.txt",
+        "type" : "text/plain",
+        "size" : 105
+      }, {
+        "uid" : "e7452e78967fe1e9",
+        "name" : "Request Body",
+        "source" : "e7452e78967fe1e9.txt",
+        "type" : "text/plain",
+        "size" : 110
+      }, {
+        "uid" : "46a03f9a7d279ee0",
+        "name" : "Response Status Code",
+        "source" : "46a03f9a7d279ee0.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "6938e07bb31e008f",
+        "name" : "Response Headers",
+        "source" : "6938e07bb31e008f.txt",
+        "type" : "text/plain",
+        "size" : 879
+      }, {
+        "uid" : "72c40dac4a5d5e39",
+        "name" : "Response Body",
+        "source" : "72c40dac4a5d5e39.txt",
+        "type" : "text/plain",
+        "size" : 401
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 21,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Выход из личного кабинета",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1723439361593,
+        "stop" : 1723439361678,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//p[text() = 'Личный Кабинет']\") click()",
+        "time" : {
+          "start" : 1723439361594,
+          "stop" : 1723439361678,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Входим в систему пользователем",
+      "time" : {
+        "start" : 1723439361678,
+        "stop" : 1723439362390,
+        "duration" : 712
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//h2[text() = 'Вход']\") should be(visible)",
+        "time" : {
+          "start" : 1723439361679,
+          "stop" : 1723439361712,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[@class='text input__textfield text_type_main-default'][0]\") set value(игорь.доронина@ya.ru)",
+        "time" : {
+          "start" : 1723439361713,
+          "stop" : 1723439361839,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[@class='text input__textfield text_type_main-default'][1]\") set value(zr2cqvtkm5h8)",
+        "time" : {
+          "start" : 1723439361840,
+          "stop" : 1723439361944,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//button[text() = 'Войти']\") click()",
+        "time" : {
+          "start" : 1723439361944,
+          "stop" : 1723439362011,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//h2[text() = 'Вход']\") should not be(visible)",
+        "time" : {
+          "start" : 1723439362011,
+          "stop" : 1723439362390,
+          "duration" : 379
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=игорь.доронина@ya.ru, password=zr2cqvtkm5h8, name=василиса.громов)"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1723439362390,
+        "stop" : 1723439362517,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//p[text() = 'Личный Кабинет']\") click()",
+        "time" : {
+          "start" : 1723439362390,
+          "stop" : 1723439362517,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажать выход в личном кабинете и проверить что отображается страница логина",
+      "time" : {
+        "start" : 1723439362517,
+        "stop" : 1723439363609,
+        "duration" : 1092
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//button[text()='Выход']\") click()",
+        "time" : {
+          "start" : 1723439362518,
+          "stop" : 1723439362876,
+          "duration" : 358
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//h2[text() = 'Вход']\") should be(visible)",
+        "time" : {
+          "start" : 1723439362877,
+          "stop" : 1723439363609,
+          "duration" : 732
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1723439363610,
+      "stop" : 1723439364364,
+      "duration" : 754
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"current window\") close()",
+      "time" : {
+        "start" : 1723439363610,
+        "stop" : 1723439363724,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удаление пользователя/Очистка данных",
+      "time" : {
+        "start" : 1723439363724,
+        "stop" : 1723439364364,
+        "duration" : 640
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11ade1fd1ee19d3",
+        "name" : "Request Method",
+        "source" : "11ade1fd1ee19d3.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "af37dc6524d76198",
+        "name" : "Request URI",
+        "source" : "af37dc6524d76198.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "50a15e0833f1fc9c",
+        "name" : "Request Headers",
+        "source" : "50a15e0833f1fc9c.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "c42fdd446c974318",
+        "name" : "Request Body",
+        "source" : "c42fdd446c974318.txt",
+        "type" : "text/plain",
+        "size" : 110
+      }, {
+        "uid" : "5f9d79db0f75103e",
+        "name" : "Response Status Code",
+        "source" : "5f9d79db0f75103e.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "6b66b30be65cab43",
+        "name" : "Response Headers",
+        "source" : "6b66b30be65cab43.txt",
+        "type" : "text/plain",
+        "size" : 651
+      }, {
+        "uid" : "1bbfeb02b1b41900",
+        "name" : "Response Body",
+        "source" : "1bbfeb02b1b41900.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "17c03ecb12d0f3e9",
+        "name" : "Request Method",
+        "source" : "17c03ecb12d0f3e9.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "78605c0db18de4fd",
+        "name" : "Request URI",
+        "source" : "78605c0db18de4fd.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "b15b0f5bf01d5d42",
+        "name" : "Request Headers",
+        "source" : "b15b0f5bf01d5d42.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "b5c7866486503f3d",
+        "name" : "Request Body",
+        "source" : "b5c7866486503f3d.txt",
+        "type" : "text/plain",
+        "size" : 110
+      }, {
+        "uid" : "642f1a6307ea9a1b",
+        "name" : "Response Status Code",
+        "source" : "642f1a6307ea9a1b.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "29af6ca70187bccc",
+        "name" : "Response Headers",
+        "source" : "29af6ca70187bccc.txt",
+        "type" : "text/plain",
+        "size" : 651
+      }, {
+        "uid" : "3d55596a0bc27d64",
+        "name" : "Response Body",
+        "source" : "3d55596a0bc27d64.txt",
+        "type" : "text/plain",
+        "size" : 54
+      }, {
+        "uid" : "903f7d91ce5210c2",
+        "name" : "Request Method",
+        "source" : "903f7d91ce5210c2.txt",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "b04bf26a49b16e21",
+        "name" : "Request URI",
+        "source" : "b04bf26a49b16e21.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "d6b4894d78194708",
+        "name" : "Request Headers",
+        "source" : "d6b4894d78194708.txt",
+        "type" : "text/plain",
+        "size" : 298
+      }, {
+        "uid" : "ae7f0078588a6b5b",
+        "name" : "Request Body",
+        "source" : "ae7f0078588a6b5b.txt",
+        "type" : "text/plain",
+        "size" : 110
+      }, {
+        "uid" : "f8470603b01f43c0",
+        "name" : "Response Status Code",
+        "source" : "f8470603b01f43c0.txt",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "a58b2b0ddfaef69",
+        "name" : "Response Headers",
+        "source" : "a58b2b0ddfaef69.txt",
+        "type" : "text/plain",
+        "size" : 651
+      }, {
+        "uid" : "6d0fd99d4e0e1d20",
+        "name" : "Response Body",
+        "source" : "6d0fd99d4e0e1d20.txt",
+        "type" : "text/plain",
+        "size" : 54
+      } ],
+      "parameters" : [ {
+        "name" : "userResponse",
+        "value" : "User(email=игорь.доронина@ya.ru, password=zr2cqvtkm5h8, name=василиса.громов)"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 21,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 21,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0SPD60R3"
+  }, {
+    "name" : "thread",
+    "value" : "22108@LAPTOP-0SPD60R3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TransitionPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "TransitionPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "transitionExitPersonalPageTest"
+  }, {
+    "name" : "suite",
+    "value" : "Переходы по страницам"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45e86cfb0414dd5b.json",
+  "parameterValues" : [ ]
+}

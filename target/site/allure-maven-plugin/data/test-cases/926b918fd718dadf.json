@@ -1,0 +1,435 @@
+{
+  "uid" : "926b918fd718dadf",
+  "name" : "Регистрация нового пользователя",
+  "fullName" : "RegistrationTest.successRegistrationTest",
+  "historyId" : "6e9df85aaa69e5ff32ecd453244726a6",
+  "time" : {
+    "start" : 1723439330514,
+    "stop" : 1723439336039,
+    "duration" : 5525
+  },
+  "description" : "Регистрация нового пользователя",
+  "descriptionHtml" : "<p>Регистрация нового пользователя</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initialize",
+    "time" : {
+      "start" : 1723439330516,
+      "stop" : 1723439334252,
+      "duration" : 3736
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://stellarburgers.nomoreparties.site",
+      "time" : {
+        "start" : 1723439330584,
+        "stop" : 1723439334252,
+        "duration" : 3668
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "generateNewUserData",
+    "time" : {
+      "start" : 1723439334252,
+      "stop" : 1723439334262,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "initSpecification",
+    "time" : {
+      "start" : 1723439330488,
+      "stop" : 1723439330491,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Регистрация нового пользователя",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть личный кабинет",
+      "time" : {
+        "start" : 1723439334263,
+        "stop" : 1723439334484,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//p[text() = 'Личный Кабинет']\") click()",
+        "time" : {
+          "start" : 1723439334264,
+          "stop" : 1723439334484,
+          "duration" : 220
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Перейти на страницу регистрации",
+      "time" : {
+        "start" : 1723439334485,
+        "stop" : 1723439334571,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.linkText: Зарегистрироваться\") click()",
+        "time" : {
+          "start" : 1723439334485,
+          "stop" : 1723439334571,
+          "duration" : 86
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Зарегистрировать нового пользователя",
+      "time" : {
+        "start" : 1723439334571,
+        "stop" : 1723439335041,
+        "duration" : 470
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//h2[text() = 'Регистрация']\") should be(visible)",
+        "time" : {
+          "start" : 1723439334571,
+          "stop" : 1723439334606,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[@class='text input__textfield text_type_main-default'][0]\") set value(софия.терентьев)",
+        "time" : {
+          "start" : 1723439334607,
+          "stop" : 1723439334740,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[@class='text input__textfield text_type_main-default'][1]\") set value(игнатии.бирюкова@hotmail.com)",
+        "time" : {
+          "start" : 1723439334741,
+          "stop" : 1723439334845,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[@class='text input__textfield text_type_main-default'][2]\") set value(dckkzxycxzve0hm)",
+        "time" : {
+          "start" : 1723439334846,
+          "stop" : 1723439334959,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//button[text() = 'Зарегистрироваться']\") click()",
+        "time" : {
+          "start" : 1723439334960,
+          "stop" : 1723439335041,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=игнатии.бирюкова@hotmail.com, password=dckkzxycxzve0hm, name=софия.терентьев)"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Входим в систему пользователем",
+      "time" : {
+        "start" : 1723439335041,
+        "stop" : 1723439335955,
+        "duration" : 914
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//h2[text() = 'Вход']\") should be(visible)",
+        "time" : {
+          "start" : 1723439335041,
+          "stop" : 1723439335307,
+          "duration" : 266
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[@class='text input__textfield text_type_main-default'][0]\") set value(игнатии.бирюкова@hotmail.com)",
+        "time" : {
+          "start" : 1723439335308,
+          "stop" : 1723439335421,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//*[@class='text input__textfield text_type_main-default'][1]\") set value(dckkzxycxzve0hm)",
+        "time" : {
+          "start" : 1723439335422,
+          "stop" : 1723439335525,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//button[text() = 'Войти']\") click()",
+        "time" : {
+          "start" : 1723439335526,
+          "stop" : 1723439335593,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: .//h2[text() = 'Вход']\") should not be(visible)",
+        "time" : {
+          "start" : 1723439335594,
+          "stop" : 1723439335955,
+          "duration" : 361
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(email=игнатии.бирюкова@hotmail.com, password=dckkzxycxzve0hm, name=софия.терентьев)"
+      } ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Проверка отображения главной страницы",
+      "time" : {
+        "start" : 1723439335955,
+        "stop" : 1723439335985,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: .//*[text()='Соберите бургер']\") should be(visible)",
+        "time" : {
+          "start" : 1723439335955,
+          "stop" : 1723439335985,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1723439335985,
+      "stop" : 1723439336039,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"current window\") close()",
+      "time" : {
+        "start" : 1723439335985,
+        "stop" : 1723439336039,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "LAPTOP-0SPD60R3"
+  }, {
+    "name" : "thread",
+    "value" : "22108@LAPTOP-0SPD60R3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successRegistrationTest"
+  }, {
+    "name" : "suite",
+    "value" : "Регистрация нового пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "926b918fd718dadf.json",
+  "parameterValues" : [ ]
+}
