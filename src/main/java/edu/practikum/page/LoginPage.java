@@ -43,8 +43,14 @@ public class LoginPage {
         return this;
     }
 
-    public void verifyLoginPageIsNotDisplayed(){
+    public LoginPage verifyLoginPageIsNotDisplayed(){
         $(lpc.loginHeader()).shouldNotBe(Condition.visible);
+        return this;
+    }
+
+    public LoginPage verifyLoginPageIsDisplayed(){
+        $(lpc.loginHeader()).shouldBe(Condition.visible);
+        return this;
     }
 
 

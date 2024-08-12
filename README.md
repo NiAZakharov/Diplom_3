@@ -7,6 +7,9 @@
 Запустить все тесты
 > mvn clean test
 
+Выбор браузера (по умолчанию chrome)
+> mvn clean test -Dbrowser=firefox
+
 Запустить тесты определенного класса
 > mvn clean test -Dtest=AuthUserTest
 
