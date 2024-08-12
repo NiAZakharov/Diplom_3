@@ -1,6 +1,6 @@
 package edu.practikum.dto;
 
-public enum ButtonLoginName {
+public enum ButtonLoginEnum {
     HOME,
     LK,
     REGISTER,

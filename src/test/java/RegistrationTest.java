@@ -1,12 +1,15 @@
 import com.github.javafaker.Faker;
 import edu.practikum.BaseScenario;
 import edu.practikum.dto.User;
+import io.qameta.allure.Description;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.Locale;
 
+@DisplayName("Регистрация нового пользователя")
 public class RegistrationTest extends BaseScenario {
 
     private final static Faker FAKER = new Faker(new Locale("ru_Ru", "RU"));
@@ -24,17 +27,21 @@ public class RegistrationTest extends BaseScenario {
     }
 
     @Test
-    public void successRegistration() {
+    @DisplayName("Регистрация нового пользователя")
+    @Description("Регистрация нового пользователя")
+    public void successRegistrationTest() {
 
         testStep
                 .openLk()
                 .goToRegisterPage()
-                .registerUser(newUser)
+                .registerUserFromRegisterPage(newUser)
                 .authUserFromAuthPage(newUser)
                 .verifyHomePageIsActive();
     }
 
     @Test
+    @DisplayName("Проверка валидации на длину пароля при регистрации")
+    @Description("Проверка валидации на длину пароля при регистрации")
     public void registerWithShortPasswordTest() {
         //изменили пароль на рандомный короткий
         newUser.setPassword(RandomStringUtils.randomAlphanumeric(5));
@@ -42,7 +49,7 @@ public class RegistrationTest extends BaseScenario {
         testStep
                 .openLk()
                 .goToRegisterPage()
-                .registerUser(newUser)
+                .registerUserFromRegisterPage(newUser)
                 .verifyRegisterErrorIsActive();
     }
 }

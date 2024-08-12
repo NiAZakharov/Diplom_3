@@ -26,17 +26,13 @@
         <webdriver.version>4.13.0</webdriver.version>
         <junit.jupiter.version>5.9.1</junit.jupiter.version>
         <junit.platform.version>1.9.1</junit.platform.version>
-<!--        <commons-beanutils.version>1.9.4</commons-beanutils.version>-->
-        <properties-loader.version>1.5</properties-loader.version>
         <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <slf4j.version>2.0.0-alpha1</slf4j.version>
         <aspectjweaver.version>1.9.7</aspectjweaver.version>
         <webdrivermanager>5.5.2</webdrivermanager>
         <faker.version>1.0.2</faker.version>
         <owner.properties>1.0.8</owner.properties>
         <rest-assured.version>5.4.0</rest-assured.version>
-        <json-schema-validator.version>4.4.0</json-schema-validator.version>
         <lombok.version>1.18.28</lombok.version>
     </properties>
     <dependencies>
@@ -73,16 +69,6 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.jupiter.version}</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>commons-beanutils</groupId>-->
-<!--            <artifactId>commons-beanutils</artifactId>-->
-<!--            <version>${commons-beanutils.version}</version>-->
-<!--        </dependency>-->
-        <dependency>
-            <groupId>ru.yandex.qatools.properties</groupId>
-            <artifactId>properties-loader</artifactId>
-            <version>${properties-loader.version}</version>
-        </dependency>
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-java-commons</artifactId>
@@ -109,16 +95,6 @@
             <version>${maven-surefire-plugin.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
             <version>5.9.1</version>
@@ -140,11 +116,6 @@
             <version>${rest-assured.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>json-schema-validator</artifactId>
-            <version>${json-schema-validator.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
@@ -162,13 +133,6 @@
                     <debug>true</debug>
                 </configuration>
             </plugin>
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-resources-plugin</artifactId>-->
-<!--                <configuration>-->
-<!--                    <encoding>UTF-8</encoding>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

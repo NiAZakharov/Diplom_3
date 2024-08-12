@@ -11,10 +11,10 @@ import io.qameta.allure.Step;
 import io.qameta.allure.selenide.AllureSelenide;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -29,15 +29,26 @@ public class BaseScenario {
     private final static Faker FAKER = new Faker(new Locale("ru_Ru", "RU"));
     protected static RequestSpecification requestSpecification;
 
-    private final BaseConfig config = ConfigFactory.create(BaseConfig.class);
-    private final String URL = config.baseUrl();
-    private final String YANDEX_BROWSER_PATH = config.yandexBrowserPath();
-    private final String YANDEX_STABLE_VERSION = config.yandexStableVersion();
+    private final static BaseConfig CONFIG = ConfigFactory.create(BaseConfig.class);
+    private final static String URL = CONFIG.baseUrl();
+    private final static String YANDEX_BROWSER_PATH = CONFIG.yandexBrowserPath();
+    private final static String YANDEX_STABLE_VERSION = CONFIG.yandexStableVersion();
 
     protected User user;
-    //    protected Response response;
     private String token;
 
+    @BeforeAll
+    public static void initSpecification() {
+        requestSpecification = RestAssured
+                .given()
+                .baseUri(CONFIG.baseUrl())
+                .basePath(CONFIG.baseApiPath())
+                .contentType(ContentType.JSON).accept(ContentType.JSON)
+                .filter(new AllureRestAssuredFilter())
+                .log().all();
+
+        RestAssured.requestSpecification = requestSpecification;
+    }
 
     @BeforeEach
     public void initialize() {
@@ -74,17 +85,15 @@ public class BaseScenario {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         Selenide.open(URL);
 
-        requestSpecification = RestAssured
-                .given()
-                .baseUri(config.baseUrl())
-                .basePath(config.baseApiPath())
-                .contentType(ContentType.JSON).accept(ContentType.JSON)
-                .filter(new AllureRestAssuredFilter())
-                .log().all();
-
-        RestAssured.requestSpecification = requestSpecification;
-
-        user = createUniqueUser();
+//        requestSpecification = RestAssured
+//                .given()
+//                .baseUri(config.baseUrl())
+//                .basePath(config.baseApiPath())
+//                .contentType(ContentType.JSON).accept(ContentType.JSON)
+//                .filter(new AllureRestAssuredFilter())
+//                .log().all();
+//
+//        RestAssured.requestSpecification = requestSpecification;
     }
 
     @AfterEach
@@ -97,7 +106,7 @@ public class BaseScenario {
     }
 
     @Step(value = "Удаление пользователя/Очистка данных")
-    public Response deleteUser(User userResponse) {
+    public void deleteUser(User userResponse) {
 
         User deleteUser = User
                 .builder()
@@ -106,11 +115,11 @@ public class BaseScenario {
                 .name(userResponse.getName())
                 .build();
 
-        return given()
+        given()
                 .header("Authorization", token)
                 .body(deleteUser)
                 .when()
-                .delete(config.userDeletePath());
+                .delete(CONFIG.userDeletePath());
     }
 
     @Step(value = "Создание нового уникального пользователя")
@@ -125,7 +134,7 @@ public class BaseScenario {
         token = given()
                 .body(newUser)
                 .when()
-                .post(config.userRegisterPath()).header("Authorization");
+                .post(CONFIG.userRegisterPath()).header("Authorization");
 
         return newUser;
     }

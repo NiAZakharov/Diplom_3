@@ -6,9 +6,6 @@ import org.openqa.selenium.By;
 @Config.Sources("classpath:userPage/userPage.properties")
 public interface UserPageConfig extends Config {
 
-    @Key("profileButton")
-    By.ByXPath profileButton();
-
     @Key("allUserFields")
     By.ByXPath allUserFields();
 

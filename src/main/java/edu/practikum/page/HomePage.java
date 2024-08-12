@@ -24,14 +24,31 @@ public class HomePage {
         return this;
     }
 
+    public HomePage validateSectionSauceIsActive() {
+        $(hpc.sectionSauce())
+                .shouldHave(Condition.attributeMatching("class",hpc.nameActiveTabClassPattern()));
+        return this;
+    }
+
     public HomePage sectionBunClick() {
-        sectionSauceClick();
         $(hpc.sectionBun()).click();
+        return this;
+    }
+
+    public HomePage validateSectionBunIsActive() {
+        $(hpc.sectionBun())
+                .shouldHave(Condition.attributeMatching("class",hpc.nameActiveTabClassPattern()));
         return this;
     }
 
     public HomePage sectionFillingClick() {
         $(hpc.sectionFilling()).click();
+        return this;
+    }
+
+    public HomePage validateSectionFillingIsActive() {
+        $(hpc.sectionFilling())
+                .shouldHave(Condition.attributeMatching("class",hpc.nameActiveTabClassPattern()));
         return this;
     }
 

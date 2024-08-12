@@ -11,26 +11,27 @@
 > mvn clean test -Dbrowser=firefox
 
 Запустить тесты определенного класса
-> mvn clean test -Dtest=AuthUserTest
+> mvn clean test -Dtest=RegistrationTest
 
 Запустить конкретный тест
-> mvn clean test -Dtest=AuthUserTest#userCanLoginTest
+> mvn clean test -Dtest=RegistrationTest#successRegistrationTest
 
 Запустить тест + сгенерировать отчет
-> mvn clean test -Dtest=AuthUserTest#userCanLoginTest allure:report
+> mvn clean test -Dtest=RegistrationTest#successRegistrationTest allure:report
 
 Запустить тест + сгенерировать и захостить отчет
-> mvn clean test -Dtest=AuthUserTest#userCanLoginTest allure:serve
+> mvn clean test -Dtest=RegistrationTest#successRegistrationTest allure:serve
 
 ## Используемый стек
 | Инструмент  | Версия |
 | ------------- | ------------- |
 | Java  | 11  |
+| Web Driver manager  | 5.5.2  |
+| Selenide  | 5.4.0  |
 | Rest Assured  | 5.4.0  |
 | JUnit  |  5.9.1|
 | Allure  | 2.13.1|
+| Owner  | 1.0.2  |
 | Faker  | 1.0.2  |
 | Lombok  | 1.18.28  |
-| Gson  | 2.10.1  |
 | Maven surefire plugin  | 3.0.0-M4 |
-| Json schema validator  | 4.4.0  |

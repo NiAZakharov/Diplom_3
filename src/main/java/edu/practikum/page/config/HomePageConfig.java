@@ -24,4 +24,7 @@ public interface HomePageConfig extends Config {
     @Key("sectionFilling")
     By.ByXPath sectionFilling();
 
+    @Key("nameActiveTabClassPattern")
+    String nameActiveTabClassPattern();
+
 }
