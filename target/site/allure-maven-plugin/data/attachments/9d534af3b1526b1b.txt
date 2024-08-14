@@ -1,1 +1,0 @@
-{"success":true,"user":{"email":"игорь.доронина@ya.ru","name":"василиса.громов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2Yjk5OGYyOWVkMjgwMDAxYjQ4YzNiMSIsImlhdCI6MTcyMzQzOTM0NiwiZXhwIjoxNzIzNDQwNTQ2fQ.7hGz9jzuf8aRF12JX_d4Lcfqs2CJ2E9vRTXtotl3198","refreshToken":"5285fbdc67ed3ff58da4ffeba630e4c67fe7409a3102d1bee4d7f9dce7fd8e49cb09f5192a86d467"}

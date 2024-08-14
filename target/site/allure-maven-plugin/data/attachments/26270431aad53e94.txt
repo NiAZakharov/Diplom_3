@@ -1,1 +1,0 @@
-{"success":true,"user":{"email":"анжела.брагина@hotmail.com","name":"вероника.чернов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2Yjk5OGM2OWVkMjgwMDAxYjQ4YzM5YyIsImlhdCI6MTcyMzQzOTMwMiwiZXhwIjoxNzIzNDQwNTAyfQ.jV2DwJznfCn_zbjSCu6b6eh18vxcB5kFxxVEOSvJld0","refreshToken":"e4274134ad6fb03b992b364911fb18e31632def3388f584f01fa45cf774f0a2a1028590c2c5b1083"}

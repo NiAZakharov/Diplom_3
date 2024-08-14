@@ -1,1 +1,0 @@
-{"success":true,"user":{"email":"тамара.журавлева@yandex.ru","name":"арина.тетерин"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2Yjk5OGUxOWVkMjgwMDAxYjQ4YzNhOCIsImlhdCI6MTcyMzQzOTMyOSwiZXhwIjoxNzIzNDQwNTI5fQ.49voWJZoJ1xAYpD6vjNmLh5DhMi_WpQIA8j-qtdEiv8","refreshToken":"e77030d3c63c545b7feadb6b0beab9b8dc1fe7d79e3db0b8ef2ee71302daa698793136f961285680"}

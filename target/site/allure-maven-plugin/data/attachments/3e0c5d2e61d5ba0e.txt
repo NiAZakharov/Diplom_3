@@ -1,1 +1,0 @@
-{"success":true,"user":{"email":"елизавета.уварова@ya.ru","name":"макар.ершов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2Yjk5OGVjOWVkMjgwMDAxYjQ4YzNhZSIsImlhdCI6MTcyMzQzOTM0MCwiZXhwIjoxNzIzNDQwNTQwfQ.RoLR4N5ZEyXeZxaS0juXhl4M17weE1E2w_07WgcRwvc","refreshToken":"01c9efb30bbde7aac13cd676c934c8043bd31d3c04fa3d7ec0bfcde43d031082e08916339652ec13"}

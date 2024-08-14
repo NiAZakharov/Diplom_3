@@ -1,1 +1,0 @@
-{"success":true,"user":{"email":"владимир.поляков@hotmail.com","name":"алина.козлов"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2Yjk5OGU3OWVkMjgwMDAxYjQ4YzNhYiIsImlhdCI6MTcyMzQzOTMzNSwiZXhwIjoxNzIzNDQwNTM1fQ.YCsURzG-GG61LY_en-mmWRCzhxcLqGcOY1-cC1BDF-c","refreshToken":"80434f183bf3dbaab4d7fd1523558cf68b5171ef17d9928c1735bf1ecbda3eb22c99077e0c5dcec3"}

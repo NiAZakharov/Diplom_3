@@ -1,1 +1,0 @@
-{"success":true,"user":{"email":"макар.козлова@yahoo.com","name":"игорь.сергеева"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2Yjk5OGQxOWVkMjgwMDAxYjQ4YzNhMiIsImlhdCI6MTcyMzQzOTMxMywiZXhwIjoxNzIzNDQwNTEzfQ.NN4o69jyTHYDTaeRMV6Yhqiz5O--atWe7UtJcNE-GLE","refreshToken":"14ec15fc3e5bf609f769d31b7e52fe583e1ca8e985bc1bf3de6d60868f7ef3f748a8867043e56e5e"}

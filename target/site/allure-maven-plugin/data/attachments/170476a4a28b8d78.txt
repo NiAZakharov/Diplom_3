@@ -1,2 +1,0 @@
-Accept=application/json, application/javascript, text/javascript, text/json
-Content-Type=application/json

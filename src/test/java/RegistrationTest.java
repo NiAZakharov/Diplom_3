@@ -14,11 +14,10 @@ public class RegistrationTest extends BaseScenario {
 
     private final static Faker FAKER = new Faker(new Locale("ru_Ru", "RU"));
     private final TestStep testStep = new TestStep();
-    private User newUser;
 
     @BeforeEach
     public void generateNewUserData() {
-        newUser = User
+        user = User
                 .builder()
                 .email(FAKER.internet().emailAddress())
                 .password(FAKER.internet().password())
@@ -34,8 +33,8 @@ public class RegistrationTest extends BaseScenario {
         testStep
                 .openLk()
                 .goToRegisterPage()
-                .registerUserFromRegisterPage(newUser)
-                .authUserFromAuthPage(newUser)
+                .registerUserFromRegisterPage(user)
+                .authUserFromAuthPage(user)
                 .verifyHomePageIsActive();
     }
 
@@ -44,12 +43,12 @@ public class RegistrationTest extends BaseScenario {
     @Description("Проверка валидации на длину пароля при регистрации")
     public void registerWithShortPasswordTest() {
         //изменили пароль на рандомный короткий
-        newUser.setPassword(RandomStringUtils.randomAlphanumeric(5));
+        user.setPassword(RandomStringUtils.randomAlphanumeric(5));
 
         testStep
                 .openLk()
                 .goToRegisterPage()
-                .registerUserFromRegisterPage(newUser)
+                .registerUserFromRegisterPage(user)
                 .verifyRegisterErrorIsActive();
     }
 }

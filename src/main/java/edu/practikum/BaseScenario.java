@@ -22,18 +22,17 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import java.util.Locale;
 import java.util.Optional;
 
+import static com.codeborne.selenide.Selenide.executeJavaScript;
 import static io.restassured.RestAssured.given;
 
 public class BaseScenario {
 
     private final static Faker FAKER = new Faker(new Locale("ru_Ru", "RU"));
-    protected static RequestSpecification requestSpecification;
-
     private final static BaseConfig CONFIG = ConfigFactory.create(BaseConfig.class);
     private final static String URL = CONFIG.baseUrl();
     private final static String YANDEX_BROWSER_PATH = CONFIG.yandexBrowserPath();
     private final static String YANDEX_STABLE_VERSION = CONFIG.yandexStableVersion();
-
+    protected static RequestSpecification requestSpecification;
     protected User user;
     private String token;
 
@@ -89,11 +88,18 @@ public class BaseScenario {
 
     @AfterEach
     public void tearDown() {
-        Selenide.closeWindow();
 
-        if (user != null) {
+        //Сюда попадем если токен не был получен при создании пользователя
+        if (token == null) {
+            //и заберем его из локального хранилища самого браузера
+            token = executeJavaScript("return localStorage.getItem('accessToken');");
+        }
+
+        if (token != null && user != null) {
             deleteUser(user);
         }
+        user = null;
+        Selenide.closeWindow();
     }
 
     @Step(value = "Удаление пользователя/Очистка данных")
