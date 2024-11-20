@@ -1,0 +1,156 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-0SPD60R3",
+    "children" : [ {
+      "name" : "14328@LAPTOP-0SPD60R3.main(1)",
+      "children" : [ {
+        "name" : "Вход через кнопку RECOVERY",
+        "uid" : "1d49548dd2cbfcaa",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632263963,
+          "stop" : 1723632269904,
+          "duration" : 5941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка валидации на длину пароля при регистрации",
+        "uid" : "dd9b063e68aff08a",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632276022,
+          "stop" : 1723632280535,
+          "duration" : 4513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переключение по вкладкам в конструкторе",
+        "uid" : "ea2786fa6d965c64",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632307951,
+          "stop" : 1723632313144,
+          "duration" : 5193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку REGISTER",
+        "uid" : "3bb754a26ff71f11",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632258112,
+          "stop" : 1723632263943,
+          "duration" : 5831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку LK",
+        "uid" : "f2b5230de82c4753",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632251654,
+          "stop" : 1723632258103,
+          "duration" : 6449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Выход из личного кабинета",
+        "uid" : "43c3791546ce6239",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632300564,
+          "stop" : 1723632307945,
+          "duration" : 7381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку HOME",
+        "uid" : "c2429b6e8c69e269",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632243575,
+          "stop" : 1723632251615,
+          "duration" : 8040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку LOGO_STELLAR_BURGER",
+        "uid" : "ef9afd6b93b21108",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632286973,
+          "stop" : 1723632293780,
+          "duration" : 6807
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Регистрация нового пользователя",
+        "uid" : "a48fbc9d106c9427",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632269925,
+          "stop" : 1723632276015,
+          "duration" : 6090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Вход через кнопку CONSTRUCTOR",
+        "uid" : "a5cdb2d7158415e9",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632280554,
+          "stop" : 1723632286966,
+          "duration" : 6412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход в личный кабинет",
+        "uid" : "1bc5adee13243aa",
+        "parentUid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1723632293785,
+          "stop" : 1723632300558,
+          "duration" : 6773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "104ebb01bfbe5b1bb1da1f8d9d3699b8"
+    } ],
+    "uid" : "7831b1793f4328eb7f03450829a73523"
+  } ]
+}

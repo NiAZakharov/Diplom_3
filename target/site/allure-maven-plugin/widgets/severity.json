@@ -1,0 +1,111 @@
+[ {
+  "uid" : "ea2786fa6d965c64",
+  "name" : "Переключение по вкладкам в конструкторе",
+  "time" : {
+    "start" : 1723632307951,
+    "stop" : 1723632313144,
+    "duration" : 5193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a48fbc9d106c9427",
+  "name" : "Регистрация нового пользователя",
+  "time" : {
+    "start" : 1723632269925,
+    "stop" : 1723632276015,
+    "duration" : 6090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2b5230de82c4753",
+  "name" : "Вход через кнопку LK",
+  "time" : {
+    "start" : 1723632251654,
+    "stop" : 1723632258103,
+    "duration" : 6449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bc5adee13243aa",
+  "name" : "Переход в личный кабинет",
+  "time" : {
+    "start" : 1723632293785,
+    "stop" : 1723632300558,
+    "duration" : 6773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2429b6e8c69e269",
+  "name" : "Вход через кнопку HOME",
+  "time" : {
+    "start" : 1723632243575,
+    "stop" : 1723632251615,
+    "duration" : 8040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d49548dd2cbfcaa",
+  "name" : "Вход через кнопку RECOVERY",
+  "time" : {
+    "start" : 1723632263963,
+    "stop" : 1723632269904,
+    "duration" : 5941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd9b063e68aff08a",
+  "name" : "Проверка валидации на длину пароля при регистрации",
+  "time" : {
+    "start" : 1723632276022,
+    "stop" : 1723632280535,
+    "duration" : 4513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5cdb2d7158415e9",
+  "name" : "Вход через кнопку CONSTRUCTOR",
+  "time" : {
+    "start" : 1723632280554,
+    "stop" : 1723632286966,
+    "duration" : 6412
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bb754a26ff71f11",
+  "name" : "Вход через кнопку REGISTER",
+  "time" : {
+    "start" : 1723632258112,
+    "stop" : 1723632263943,
+    "duration" : 5831
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43c3791546ce6239",
+  "name" : "Выход из личного кабинета",
+  "time" : {
+    "start" : 1723632300564,
+    "stop" : 1723632307945,
+    "duration" : 7381
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef9afd6b93b21108",
+  "name" : "Вход через кнопку LOGO_STELLAR_BURGER",
+  "time" : {
+    "start" : 1723632286973,
+    "stop" : 1723632293780,
+    "duration" : 6807
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

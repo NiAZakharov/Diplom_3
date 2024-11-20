@@ -1,0 +1,160 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "LoginTest",
+    "children" : [ {
+      "name" : "userCanLoginTest",
+      "uid" : "c2429b6e8c69e269",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632243575,
+        "stop" : 1723632251615,
+        "duration" : 8040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userCanLoginTest",
+      "uid" : "f2b5230de82c4753",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632251654,
+        "stop" : 1723632258103,
+        "duration" : 6449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userCanLoginTest",
+      "uid" : "3bb754a26ff71f11",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632258112,
+        "stop" : 1723632263943,
+        "duration" : 5831
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "userCanLoginTest",
+      "uid" : "1d49548dd2cbfcaa",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632263963,
+        "stop" : 1723632269904,
+        "duration" : 5941
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7cbde4e1492086c9f8631b2d4e369dc0"
+  }, {
+    "name" : "RegistrationTest",
+    "children" : [ {
+      "name" : "successRegistrationTest",
+      "uid" : "a48fbc9d106c9427",
+      "parentUid" : "ad6bf52d94fce581bf981be9b55e28e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632269925,
+        "stop" : 1723632276015,
+        "duration" : 6090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "registerWithShortPasswordTest",
+      "uid" : "dd9b063e68aff08a",
+      "parentUid" : "ad6bf52d94fce581bf981be9b55e28e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632276022,
+        "stop" : 1723632280535,
+        "duration" : 4513
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ad6bf52d94fce581bf981be9b55e28e9"
+  }, {
+    "name" : "TransitionPageTest",
+    "children" : [ {
+      "name" : "transitionConstructorPageTest",
+      "uid" : "a5cdb2d7158415e9",
+      "parentUid" : "366532595f76181d62852a84c1720884",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632280554,
+        "stop" : 1723632286966,
+        "duration" : 6412
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "transitionConstructorPageTest",
+      "uid" : "ef9afd6b93b21108",
+      "parentUid" : "366532595f76181d62852a84c1720884",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632286973,
+        "stop" : 1723632293780,
+        "duration" : 6807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "transitionPersonalPageTest",
+      "uid" : "1bc5adee13243aa",
+      "parentUid" : "366532595f76181d62852a84c1720884",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632293785,
+        "stop" : 1723632300558,
+        "duration" : 6773
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "transitionExitPersonalPageTest",
+      "uid" : "43c3791546ce6239",
+      "parentUid" : "366532595f76181d62852a84c1720884",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632300564,
+        "stop" : 1723632307945,
+        "duration" : 7381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "switchConstructTabsTest",
+      "uid" : "ea2786fa6d965c64",
+      "parentUid" : "366532595f76181d62852a84c1720884",
+      "status" : "passed",
+      "time" : {
+        "start" : 1723632307951,
+        "stop" : 1723632313144,
+        "duration" : 5193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "366532595f76181d62852a84c1720884"
+  } ]
+}
